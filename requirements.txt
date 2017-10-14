@@ -1,0 +1,4 @@
+memory-profiler==0.47
+nltk==3.2.5
+psutil==5.2.2
+six==1.11.0
