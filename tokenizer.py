@@ -1,5 +1,8 @@
+import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
+
+nltk.download("all")
 
 example_text = """The fifth round of monthly Brexit talks between the UK and the EU has taken place, with a decision due to be taken by the EU later in October on
 whether or not enough progress has been made on "separation issues" to be able to start talks about the future relationship between the UK and the EU after Brexit.
